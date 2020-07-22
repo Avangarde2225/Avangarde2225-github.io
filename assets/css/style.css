@@ -1,0 +1,218 @@
+*{
+font-family:sans-serif;
+list-style: none;
+padding:0;
+
+}
+body{
+background: #333;
+}
+.skills {
+width: 500px;
+margin: 60px auto;
+color: white;
+
+}
+.skills li{
+margin: 20px 0;
+}
+.bar{
+background: #353b48;
+display: block;
+height: 2px;
+border: 1px solid rgba(0,0,0,0.3);
+border-radius: 3px;
+overflow: hidden;
+box-shadow:  0 0 10px #2187e7b3;
+}
+.bar span{
+height: 2px;
+float: left;
+background: #2187e7;
+
+}
+.Cucumber{
+width:90%;
+animation: Cucumber 2s;
+}
+.Selenium{
+width:90%;
+animation: Selenium 2s;
+}
+.Java{
+width:60%;
+animation: Java 2s;
+}
+.TestNG{
+width:90%;
+animation: TestNG 2s;
+}
+.Junit{
+width:90%;
+animation: Junit 2s;
+}
+.SauceLabs{
+ width:90%;
+ animation: SauceLabs 2s;
+ }
+.html{
+  width:90%;
+  animation: html 2s;
+  }
+
+ .css{
+   width:90%;
+   animation: css 2s;
+   }
+ .Jdbc{
+      width:50%;
+      animation: Jdbc 2s;
+      }
+ .Apache{
+    width:50%;
+    animation: Apache 2s;
+         }
+.Postman{
+    width:75%;
+    animation: Postman 2s;
+         }
+.Rest{
+    width:40%;
+    animation: Rest 2s;
+         }
+ .Jenkins{
+     width:40%;
+     animation: Rest 2s;
+          }
+.Agile{
+    width:90%;
+    animation: Agile 2s;
+         }
+.Waterfall{
+    width:90%;
+    animation: Waterfall 2s;
+         }
+
+@keyframes Cucumber{
+0%{
+width:0%
+}
+100%{
+width: 90%;
+}
+}
+@keyframes Selenium{
+0%{
+width:0%
+}
+100%{
+width: 90%;
+}
+}
+@keyframes Java{
+0%{
+width:0%
+}
+100%{
+width: 60%;
+}
+}
+@keyframes TestNG{
+0%{
+width:0%
+}
+100%{
+width: 90%;
+}
+}
+@keyframes Junit{
+0%{
+width:0%
+}
+100%{
+width: 90%;
+}
+}
+@keyframes SauceLabs{
+0%{
+width:0%
+}
+100%{
+width: 90%;
+}
+}
+@keyframes html{
+0%{
+width:0%
+}
+100%{
+width: 90%;
+}
+}
+@keyframes css{
+0%{
+width:0%
+}
+100%{
+width: 90%;
+}
+}
+@keyframes Jdbc{
+0%{
+width:0%
+}
+100%{
+width: 50%;
+}
+}
+@keyframes Apache{
+0%{
+width:0%
+}
+100%{
+width: 50%;
+}
+}
+@keyframes Postman{
+0%{
+width:0%
+}
+100%{
+width: 75%;
+}
+}
+@keyframes Rest{
+0%{
+width:0%
+}
+100%{
+width: 40%;
+}
+}
+@keyframes Jenkins{
+0%{
+width:0%
+}
+100%{
+width: 40%;
+}
+}
+@keyframes Agile{
+0%{
+width:0%
+}
+100%{
+width: 90%;
+}
+}
+@keyframes Waterfall{
+0%{
+width:0%
+}
+100%{
+width: 90%;
+}
+}
+
+
+
